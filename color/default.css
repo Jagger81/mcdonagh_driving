@@ -1,34 +1,34 @@
 ::-moz-selection {
-  background: #ef6603;
+  background: #0088cc;  /*  replaced original colour of #0088cc */
   color: #fff;
   text-shadow: none;
 }
 ::selection {
-  background: #ef6603;
+  background: #0088cc;
   color: #fff;
   text-shadow: none;
 }
 
 a {
-  color: #ef6603;
+  color: #0088cc;
   text-decoration: none;
 }
 
 a:hover {
-	color: #dc5c00;
+	color: #0088cc;
 	text-decoration: underline;
 }
 
 .tweet a {
-	color:#ef6603;
+	color:#0088cc;
 }
 
 .tweet .tweet_time a:hover i {
-	color:#ef6603;
+	color:#0088cc;
 }
 
 .folio-caption .folio-link a:hover .icon-rounded {
-	background: #dc5c00;
+	background: #0088cc;
 }
 
 
@@ -36,32 +36,32 @@ a:hover {
 .icon-square:hover,
 .icon-rounded:hover,
 .icon-circled:hover {
-    background-color: #ef6603;
+    background-color: #0088cc;
 }
 [class^="icon-"].active,
 [class*=" icon-"].active {
-    background-color: #ef6603;
+    background-color: #0088cc;
 }
 
 
 
 
 .navbar .nav > li > a:hover {
-  color: #ef6603;
+  color: #0088cc;
 }
 
 
 ul.nav li.current {
-  background: #ef6603;
+  background: #0088cc;
 }
 .dropdown-menu li > a:hover,
 .dropdown-menu li > a:focus,
 .dropdown-submenu:hover > a {
-	background: #ef6603;
+	background: #0088cc;
 }
 
 input:focus, textarea:focus {
-	border: 1px solid #ef6603;
+	border: 1px solid #0088cc;
 }
 textarea:focus,
 input[type="text"]:focus,
@@ -79,10 +79,10 @@ input[type="search"]:focus,
 input[type="tel"]:focus,
 input[type="color"]:focus,
 .uneditable-input:focus {
-  border-color: #ef6603;
+  border-color: #0088cc;
 }
 .letter-container h2 span:hover{
-	color: #ef6603;
+	color: #0088cc;
 }
 
 
@@ -90,18 +90,18 @@ input[type="color"]:focus,
 
 .nav-tabs > .active > a,
 .nav-tabs > .active > a:hover {
-	border-top:4px solid #ef6603;
+	border-top:4px solid #0088cc;
 }
 .nav-tabs > .active > a {
-	color: #ef6603;
+	color: #0088cc;
 }
 
 /* accordion */
 .accordion-heading a:hover {
-	color: #ef6603;
+	color: #0088cc;
 }
 .accordion-heading .active{
-	color: #ef6603;
+	color: #0088cc;
 }
 
 .accordion-inner {
@@ -111,29 +111,29 @@ input[type="color"]:focus,
 /* sequence slider */
 #sequence-theme .next,
 #sequence-theme .prev {
-	background:#ef6603;
+	background:#0088cc;
 }
 
 .special-box, .box-color{
-	background: #ef6603;
+	background: #0088cc;
 }
 
 .special-box:after{
-	border-color:#000 #ef6603;
+	border-color:#000 #0088cc;
 }
 
 
 /* portfolio */
 
 .thumb-wrapp{
-	background:#ef6603;
+	background:#0088cc;
 }
 .folio-caption{
-	background:#ef6603;
+	background:#0088cc;
 }
 
 iframe.contact-map{
-  -webkit-box-shadow: 6px 6px 0px #c85c0e;
-     -moz-box-shadow: 6px 6px 0px #c85c0e;
-          box-shadow: 6px 6px 0px #c85c0e;
+  -webkit-box-shadow: 6px 6px 0px #0088cc;
+     -moz-box-shadow: 6px 6px 0px #0088cc;
+          box-shadow: 6px 6px 0px #0088cc;
 }

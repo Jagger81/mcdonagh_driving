@@ -445,20 +445,20 @@ ul.the-icons {
 }
 
 .icon-rounded  {
-    background-color: #444;
+    background-color: #0088cc;
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
 }
 
 .icon-circled {
-    background-color: #444;
+    background-color: #0088cc;
     border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
 }
 .icon-square {
-    background-color: #444;
+    background-color: #0088cc;
 }
 .icon-plain {
     width: 48px;
@@ -515,7 +515,7 @@ ul.the-icons {
 }
 [class^="icon-"].active:hover,
 [class*=" icon-"].active:hover {
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: #0088cc;
 }
 [class^="icon-"],
 [class*=" icon-"] {
@@ -833,7 +833,7 @@ section#services {
 	margin-bottom:0;
 }
 
-/*========== works ==================*/
+/*========== price list ==================*/
 
 ul.filter {
 	margin:20px 0 40px 0;
@@ -924,6 +924,41 @@ border-bottom-left-radius: 4px;
 
 .folio-caption .folio-link a{
 	margin:10px 5px 10px 0;
+}
+
+/*========== faq ==================*/
+
+section#faq {
+	background: #000 url(../img/bg/bg-1.jpg) 50% 0 no-repeat;
+	width:100%;
+	height:auto;
+	margin:0;
+}
+
+@media (min-width: 1024px) {
+	section#faq {
+		background-attachment: fixed;
+	}
+}
+
+#faq .headline h3 {
+	color:#fff;
+}
+
+#faq .section-intro p {
+	color:#f8f8f8;
+}
+
+.faq-intro{
+	width:100%;
+	margin:30px 0 30px 0;
+	padding-top:20px;
+	text-align:center;
+}
+
+.faq-intro h3{
+	font-size:64px;
+	margin-bottom:0;
 }
 
 /* ============== contact ==================== */
@@ -1511,4 +1546,65 @@ section#featured{
 	.tweet span {
 		line-height:1.5em;
 	}
+}
+
+/* ACCORDIAN SETTINGS */
+
+.panel-default>.panel-heading {
+  color: #333;
+  background-color: black;
+  border-color: #e4e5e7;
+  padding: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.panel-body {
+	color: rgb(73, 70, 70);
+	background-color: white;
+  border-color: blue;
+  padding: 5px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  }
+
+.panel-default>.panel-heading a {
+  display: block;
+  padding: 10px 15px;
+}
+
+.panel-default>.panel-heading a:after {
+  content: "";
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  float: right;
+  transition: transform .25s linear;
+  -webkit-transition: -webkit-transform .25s linear;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"] {
+  background-color: #eee;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"]:after {
+  content: "\2212";
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.panel-default>.panel-heading a[aria-expanded="false"]:after {
+  content: "\002b";
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
