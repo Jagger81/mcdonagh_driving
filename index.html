@@ -704,10 +704,12 @@
 
                 <li class="form-group">
                   <textarea class="form_textarea" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
+                  <div class="validation"><br>
+                  </div>
 
                 </li>
                 <li class="last">
+                  <div class="g-recaptcha" id="recaptcha" data-sitekey=""6Lf-Df0fAAAAAJulud6ScKyucVmkfAB7CrgAUloQ">test</div><br>
                   <button class="btn btn-large btn-theme" type="submit" id="send">Send a message</button>
                 </li>
 
@@ -801,6 +803,9 @@
 
   <!-- Contact Form JavaScript File -->
   <!--<script src="contactform/contactform.js"></script>-->
+
+  <!-- reCAPTCHA Script -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
   <!-- Template Custom Javascript File -->
   <script src="js/custom.js"></script>
