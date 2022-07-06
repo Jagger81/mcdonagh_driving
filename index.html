@@ -2,7 +2,11 @@
 <html lang="en">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!-- reCAPTCHA Script -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148900446-3"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -190,13 +194,13 @@
             Our full list of services are listed below, and we always welcome a <a href="#contact">quick phone call</a> to discuss things in detail and assist you with making the right choice.
             </p>
             <div class="row">
-                <div class="span3">
+                <!--<div class="span3">
                   <div class="well box aligncenter">
                       <img src="img/location.png" alt="Pick_Up">
                     <h3>Free Pick Up & Drop Off</h3>
                   </div>
-                </div>
-                <div class="span3">
+                </div>-->
+                <div class="span6">
                   <div class="well box aligncenter">
                       <h3>Also Available On</h3>
                       <img src="img/saturday.png" alt="saturday"><img src="img/sunday.png" alt="sunday">
@@ -352,9 +356,9 @@
               </div>
             </div>
             <div class="row">
-              <div class="span3">
+              <div class="span6">
                 <div class="well box aligncenter">
-                    <img src="img/price-tag-1.png" alt="price_tag"><h2 style="font-family: monospace;color: #0088cc;">€440</h2>
+                    <img src="img/price-tag-1.png" alt="price_tag"><h2 style="font-family: monospace;color: #0088cc;">€500</h2>
                   <h3>12 x EDT Driving Lessons</h3>
                   <p>
                     The Full Suite Of Essential Driving Training Lessons
@@ -363,9 +367,9 @@
                 </div>
               </div>
 
-              <div class="span3">
+              <div class="span6">
                 <div class="well box aligncenter">
-                    <img src="img/price-tag-1.png" alt="price_tag"><h2 style="font-family: monospace;color: #0088cc;">€220</h2>
+                    <img src="img/price-tag-1.png" alt="price_tag"><h2 style="font-family: monospace;color: #0088cc;">€300</h2>
                   <h3>6 x EDT Driving Lessons</h3>
                   <p>
                     Half Suite Of Essential Driving Training Lessons
@@ -374,7 +378,7 @@
                 </div>
               </div>
 
-              <div class="span3">
+              <!--<div class="span3">
                 <div class="well box aligncenter">
                     <img src="img/price-tag-1.png" alt="price_tag"><h2 style="font-family: monospace;color: #0088cc;">€70</h2>
                   <h3>SPECIAL OFFER - 2hr</h3>
@@ -394,7 +398,7 @@
                     </p>
                     <a href="#contact" class="btn btn-color">Enquire / Book Now</a>
                   </div>
-                </div>
+                </div>-->
 
                 <div class="span12">
                     <div class="section-intro"></br>
@@ -704,10 +708,12 @@
 
                 <li class="form-group">
                   <textarea class="form_textarea" name="message" rows="12" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                  <div class="validation"></div>
+                  <div class="validation"><br>
+                  </div>
 
                 </li>
                 <li class="last">
+                  <div class="g-recaptcha" id="recaptcha" data-sitekey="6Lf-Df0fAAAAAJulud6ScKyucVmkfAB7CrgAUloQ"></div><br>
                   <button class="btn btn-large btn-theme" type="submit" id="send">Send a message</button>
                 </li>
 
